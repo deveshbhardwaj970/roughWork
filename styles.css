@@ -1,0 +1,142 @@
+/* top nav  */
+
+.top-left, .top-center, .top-right{
+    display: inline;
+    position: absolute;
+    top: 1rem;
+    font-size: 14px;
+}
+
+.top-left{
+    top: .5rem;
+     left: 2.5rem;
+}
+
+.top-center{
+    top: .5rem;
+    left: 50%;
+    
+}
+
+.top-right{
+    top: .5rem;
+    right: 2rem;
+}
+
+.top-link:link{
+    color: #555d50;
+    text-decoration: none;
+   
+}
+
+/* middle nav bar  */
+
+.navbar-middle{
+    background-color: #f8f9fa;
+    padding-left: 1rem;
+}
+
+.navbar-middle .navbar{
+    margin-top: 2.4rem;
+    padding: 1rem;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar-middle .btn{
+    color: white;
+    background-color:rgb(17, 17, 232) ;
+}
+
+.navbar-middle .nav-item{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.dropdown-btn{
+    margin-right: -30px;
+}
+
+.search-btn{
+    margin-left: -30px;
+}
+
+#cart1{
+    display: inline;
+}
+
+#cart2{
+    display: none;
+}
+
+/* bottom navbar  */
+
+
+.navbar-bottom{
+    background-color: rgb(17, 17, 232);
+}
+.navbar-bottom .navbar{
+    padding: 0;
+}
+.bottom-nav-link:link{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+.active{
+    background-color: orange;
+    padding: 0 10px 0 10px;
+}
+.all-department-span{
+    background-color: orangered;
+    color: white;
+    position: relative;
+    font-size: 10px;
+    bottom: 24px;
+    left: 15px;
+    padding: 3px;
+}
+.blog{
+    margin-right: 1rem;
+}
+.mega-menu-span{
+    background-color: orange;
+    color: black;
+    position: relative;
+    font-size: 10px;
+    bottom: 20px;
+    right: 24px;
+    padding: 3px;
+}
+
+
+
+
+@media (min-width: 992px){
+    /* top nav  */
+    .top-right{
+        right: 5rem;
+    }
+    /* middle nav bar  */
+    .dropdown-btn{
+        margin-right: 0;
+    }
+    .search-btn{
+        margin-left: 0;
+    }
+    #cart1{
+        display: none;
+    }
+    #cart2{
+        display: inline;
+    }
+    /* bottom navbar  */
+    .blog{
+        margin-right: 4rem;
+    }
+}
