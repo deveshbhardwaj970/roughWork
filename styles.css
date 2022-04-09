@@ -82,7 +82,7 @@
 .navbar-bottom .navbar{
     padding: 0;
 }
-.bottom-nav-link:link{
+.bottom-nav-link{
     color: white;
     text-decoration: none;
     font-weight: bold;
